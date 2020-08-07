@@ -51,40 +51,13 @@
         </nav>
     </header>
 
-    <main role="main">
-
-        <section class="jumbotron text-center">
-            <div class="container">
-
-
-                <h3 class="jumbotron-heading">Hello</h3>
-                <h1 class="jumbotron-heading">I am Tomin Jose</h1>
-                <h5>Jnr Django developer</h5>
-                <p>
-                    <a href="mailto:tominjose222@gmail.com" class=" btn btn-primary my-2">Hire Me</a>
-                </p>
-
-
-            </div>
-        </section>
-
-        <div class=" album py-5 bg-light">
-            <div class="container">
-
-                <div class="row">
-                    {% for job in jobs.all %}
-                    <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                            <img class="card-img-top" src="{{job.image.url}}" alt="Card image cap">
-                            <div class="card-body">
-                                <p class="card-text">{{job.summary}}</p>
-                            </div>
-                        </div>
-                    </div>
-                    {% endfor %}
-                </div>
-            </div>
+    <main role="main" class="container">
+        <div class="jumbotron">
+            <h1>Contact</h1>
+            <p class="lead"><Address>Palackal(H),Puthiyakandam,Anandashramam P O,671531</Address></p>
+            <p class="lead"> Contact no:9447233544</p>
         </div>
+    
 
     </main>
 
